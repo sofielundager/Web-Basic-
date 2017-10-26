@@ -1,0 +1,79 @@
+* {
+/* fortælle størrelsesegenskaberne (bredde og højde) skal indeholde.*/
+  box-sizing: border-box;
+}
+/* baggrunden*/
+body {
+  background-color: LavenderBlush;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/*
+  baggrundsbillede
+*/
+.cover {
+  width: 100%;
+margin-top: 30px;
+}
+/* navigation bar = ul */
+
+nav ul{
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  padding: 0px;
+}
+
+
+}
+/* navigation bar = farve */
+nav li a {
+  color: IndianRed;
+  font-size: 16px;
+}
+/*billedet af mig redigering*/
+.mig{
+  width: 100%;
+  height: auto;
+  border-radius: 256px;
+  padding: 6%;
+}
+/*billede af lejlighed redigering*/
+.lejlighed{
+width: 100%;
+height: auto;
+border-radius: 256px;
+padding: 6%;
+}
+/*ingen linjer omkring teksten*/
+a:link{
+text-decoration: none;
+padding: 0;
+}
+.header {
+  margin-bottom: 10px;
+  padding-bottom:  0;
+}
+/* min overskrift */
+.header h1 {
+   font-size: 36px;
+   text-align: center;
+   color: IndianRed;
+   width: 100%;
+ }
+ /* design på min overskriften */
+ h2
+ { color: red;
+    color: DarkSalmon;
+    width: 100%;
+  }
+  /* design på min paragrafen */
+ p { color: red;
+    color: DarkSalmon;
+    width: 100%;
+  }
+    /* design på mine links */
+a {
+  color: LightCoral;
+ }
